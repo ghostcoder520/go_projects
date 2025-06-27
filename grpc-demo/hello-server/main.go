@@ -33,6 +33,7 @@ func main() {
 
 	if err != nil {
 		fmt.Println("failed to serve: %v", err)
+
 		return
 	}
 
